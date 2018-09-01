@@ -1,0 +1,68 @@
+{
+  "name": "mahakala",
+  "version": "1.0.0",
+  "description": "A commandline application which is able to check your state against the NovaTime© time tracking system",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "time-tracking"
+  ],
+  "author": "急須",
+  "license": "MIT",
+  "dependencies": {
+    "crocks": "^0.10.1",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.4.0",
+    "eslint-plugin-fp": "^2.3.0",
+    "eslint-plugin-jest": "^21.22.0",
+    "jest": "^23.5.0",
+    "responselike": "^1.0.2"
+  },
+  "eslintConfig": {
+    "parserOptions": {
+      "ecmaVersion": 6
+    },
+    "env": {
+      "node": true
+    },
+    "plugins": [
+      "fp"
+    ],
+    "extends": "plugin:fp/recommended",
+    "rules": {
+      "fp/no-mutation": [
+        "error",
+        {
+          "commonjs": true
+        }
+      ]
+    },
+    "overrides": [
+      {
+        "files": [
+          "*.test.js"
+        ],
+        "env": {
+          "jest": true
+        },
+        "plugins": [
+          "jest"
+        ],
+        "rules": {
+          "jest/no-disabled-tests": "warn",
+          "jest/no-focused-tests": "error",
+          "jest/no-identical-title": "error",
+          "jest/prefer-to-have-length": "warn",
+          "jest/valid-expect": "error",
+          "fp/no-unused-expression": "off",
+          "fp/no-nil": "off"
+        }
+      }
+    ]
+  }
+}
