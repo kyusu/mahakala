@@ -1,5 +1,5 @@
 # mahakala
-
+[![dependencies Status](https://david-dm.org/kyusu/mahakala/status.svg)](https://david-dm.org/kyusu/mahakala)
 [![Maintainability](https://api.codeclimate.com/v1/badges/2a8f8276214c89a96d19/maintainability)](https://codeclimate.com/github/kyusu/mahakala/maintainability)
 
 ## Purpose
