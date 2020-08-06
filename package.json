@@ -17,12 +17,12 @@
     "request": "^2.88.0"
   },
   "devDependencies": {
-    "coveralls": "^3.0.3",
-    "eslint": "^5.15.1",
-    "eslint-plugin-fp": "^2.3.0",
-    "eslint-plugin-jest": "^21.22.0",
-    "jest": "^25.1.0",
-    "responselike": "^1.0.2"
+    "coveralls": "3.0.3",
+    "eslint": "5.15.1",
+    "eslint-plugin-fp": "2.3.0",
+    "eslint-plugin-jest": "21.22.0",
+    "jest": "25.1.0",
+    "responselike": "1.0.2"
   },
   "eslintConfig": {
     "parserOptions": {
