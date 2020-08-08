@@ -1,4 +1,5 @@
 const tryCatch = require('crocks/Result/tryCatch');
+const {unary} = require('crocks/helpers');
 const resultToAsync = require('crocks/Async/resultToAsync');
 const {liftFn} = require('./AsyncReader.js');
 
@@ -7,7 +8,7 @@ const {liftFn} = require('./AsyncReader.js');
  * in a Result.Err instance, when the parsing succeeds the result is wrapped in a Result.Ok instance
  * @type(function(string): Result)
  */
-const safeJSONParse = tryCatch(JSON.parse);
+const safeJSONParse = tryCatch(unary(JSON.parse));
 
 /**
  * Takes the configuration files as string (inside a AsyncReader instance) and tries to parse it. Failed attempts are
