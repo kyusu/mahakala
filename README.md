@@ -5,6 +5,8 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/2a8f8276214c89a96d19/maintainability)](https://codeclimate.com/github/kyusu/mahakala/maintainability)
 [![Known Vulnerabilities](https://snyk.io/test/github/kyusu/mahakala/badge.svg?targetFile=package.json)](https://snyk.io/test/github/kyusu/mahakala?targetFile=package.json)
 [![Coverage Status](https://coveralls.io/repos/github/kyusu/mahakala/badge.svg?branch=master)](https://coveralls.io/github/kyusu/mahakala?branch=master)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/kyusu/mahakala/graphs/commit-activity)
+[![GitHub license](https://img.shields.io/github/license/kyusu/mahakala.svg)](https://github.com/kyusu/mahakala/blob/master/LICENSE)
 
 ## Purpose
 [Mahakala](https://en.wikipedia.org/wiki/Mahakala) is just a small command-line application which is able to query a NovaTime© time tracking system for your state (present/absent).
