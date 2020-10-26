@@ -21,7 +21,7 @@
     "eslint": "7.11.0",
     "eslint-plugin-fp": "2.3.0",
     "eslint-plugin-jest": "24.1.0",
-    "jest": "26.6.0",
+    "jest": "26.6.1",
     "responselike": "2.0.0"
   },
   "eslintConfig": {
