@@ -20,7 +20,7 @@
     "coveralls": "3.1.0",
     "eslint": "7.23.0",
     "eslint-plugin-fp": "2.3.0",
-    "eslint-plugin-jest": "24.3.3",
+    "eslint-plugin-jest": "24.3.4",
     "jest": "26.6.3",
     "responselike": "2.0.0"
   },
