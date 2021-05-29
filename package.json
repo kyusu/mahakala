@@ -4,8 +4,7 @@
   "description": "A commandline application which is able to check your state against the NovaTime© time tracking system",
   "main": "index.js",
   "scripts": {
-    "test": "jest --coverage --coverageReporters=text-lcov | coveralls",
-    "test:ci": "jest --coverage && cat ./coverage/lcov.info | coveralls && rm -rf ./coverage",
+    "test": "jest --coverage --coverageReporters=text-lcov",
     "lint": "eslint ."
   },
   "keywords": [
