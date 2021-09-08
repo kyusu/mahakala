@@ -20,7 +20,7 @@
     "eslint": "7.32.0",
     "eslint-plugin-fp": "2.3.0",
     "eslint-plugin-jest": "24.4.0",
-    "jest": "27.1.0",
+    "jest": "27.1.1",
     "responselike": "2.0.0"
   },
   "eslintConfig": {
