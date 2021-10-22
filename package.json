@@ -17,7 +17,7 @@
     "request": "^2.88.0"
   },
   "devDependencies": {
-    "eslint": "8.0.1",
+    "eslint": "8.1.0",
     "eslint-plugin-fp": "2.3.0",
     "eslint-plugin-jest": "25.2.2",
     "jest": "27.3.1",
