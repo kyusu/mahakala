@@ -19,7 +19,7 @@
   "devDependencies": {
     "eslint": "8.5.0",
     "eslint-plugin-fp": "2.3.0",
-    "eslint-plugin-jest": "25.3.2",
+    "eslint-plugin-jest": "25.3.3",
     "jest": "27.4.5",
     "responselike": "2.0.0"
   },
