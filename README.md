@@ -1,7 +1,5 @@
 # mahakala
 [![Node.js CI](https://github.com/kyusu/mahakala/workflows/Node.js%20CI/badge.svg)](https://github.com/kyusu/mahakala/actions/workflows/node.js.yml)
-[![dependencies Status](https://david-dm.org/kyusu/mahakala/status.svg)](https://david-dm.org/kyusu/mahakala)
-[![devDependencies Status](https://david-dm.org/kyusu/mahakala/dev-status.svg)](https://david-dm.org/kyusu/mahakala?type=dev)
 [![Maintainability](https://api.codeclimate.com/v1/badges/2a8f8276214c89a96d19/maintainability)](https://codeclimate.com/github/kyusu/mahakala/maintainability)
 [![Known Vulnerabilities](https://snyk.io/test/github/kyusu/mahakala/badge.svg?targetFile=package.json)](https://snyk.io/test/github/kyusu/mahakala?targetFile=package.json)
 [![Coverage Status](https://coveralls.io/repos/github/kyusu/mahakala/badge.svg?branch=master)](https://coveralls.io/github/kyusu/mahakala?branch=master)
