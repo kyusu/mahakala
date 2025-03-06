@@ -18,7 +18,7 @@ In addition to the practical reason mentioned above, I was also looking for an e
 
 ## Usage
 
-In our home directory you have to create a file called `.mahakala`. The content of the file should be JSON of the following schema:
+In your home directory you have to create a file called `.mahakala`. The content of the file should be JSON of the following schema:
 ```
 {"userName": "1234", "password": "secret", "url": "http://yourLocalNovaTimeInstallation/cgi-bin/htm_term.cgi"}
 ```
